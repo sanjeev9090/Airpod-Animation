@@ -34,15 +34,5 @@ git clone https://github.com/your-username/airpod-animation.git
 # 2. Navigate to the project directory
 cd airpod-animation
 
-# 3. Install dependencies (if using npm-based setup)
-npm install
-# or
-yarn install
-
-# 4. Start the development server
-npm run dev
-# or
-yarn dev
-
-# 5. Open in browser
+# 3. Open in browser
 # Visit http://localhost:3000
