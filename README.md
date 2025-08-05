@@ -1,103 +1,48 @@
-AirPod Animation Scroll Effect 🎧
-Brings to life the smooth, Apple‑style AirPods Pro scrolling animation using HTML, CSS, GSAP (GreenSock), and JavaScript canvas techniques.
+# 🎧 AirPods Animation Website
 
-🚀 Demo
-View the live demo: airpod-animation.vercel.app
+> A stunning animated showcase of Apple AirPods.  
+> 🌐 [Live Demo](https://airpod-animation.vercel.app)
 
-Features
-Scroll‑controlled animation of AirPods images, seamless and fluid like Apple’s official site
+---
 
-Canvas‑based rendering for high performance and cross‑browser smoothness 
-Reddit
-+11
-GitHub
-+11
-Gist
-+11
-Reddit
-Reddit
+## 📌 Project Overview
 
-Fades and transitions to sync text overlay with scrolling
+This project is a visually immersive animated website that showcases Apple AirPods using smooth transitions, scroll-based animations, and elegant UI elements. Built to demonstrate front-end animation capabilities.
 
-Minimal dependencies — clean HTML, CSS and JavaScript powered by GSAP
+## 🌟 Features
 
-How It Works
-Preloads a numbered sequence of AirPods frame images
+- Smooth scroll-based animation
+- Interactive 3D/2D product showcase
+- Responsive design
+- Minimal and elegant user interface
+- Fast-loading and mobile-optimized
 
-Listens to the scroll event and computes the scroll fraction
+## 🛠️ Tech Stack
 
-Maps scroll position to a specific frame index
+- **Framework**: HTML / CSS / JavaScript.
+- **Animation**: GSAP / ScrollTrigger.
+- **Deployment**: [Vercel](https://vercel.com/)
 
-Draws the relevant frame to a <canvas> for smooth animation 
-Gist
-+6
-GitHub
-+6
-GitHub
-+6
-Gist
-Reddit
+## 🚀 Getting Started
 
-Text overlay (e.g. “AirPods Pro”) stays fixed and gradually fades as you scroll.
+To run this project locally:
 
-Installation
-bash
-Copy
-Edit
-git clone <repo-url>
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/airpod-animation.git
+
+# 2. Navigate to the project directory
 cd airpod-animation
-You can view it by simply opening index.html in any modern browser—or run via a local server (e.g. live-server, http-server).
 
-Usage & Customization
-Inspect and modify frame images in the designated assets folder
+# 3. Install dependencies (if using npm-based setup)
+npm install
+# or
+yarn install
 
-Adjust scroll‑to‑frame mapping logic inside script.js
+# 4. Start the development server
+npm run dev
+# or
+yarn dev
 
-Tweak fade timing or overlay styles in style.css
-
-Leverage GSAP by including gsap.min.js and ScrollTrigger for refined control
-
-Folder Structure
-go
-Copy
-Edit
-airpod-animation/
-├── index.html
-├── style.css
-├── script.js
-├── assets/frames/        ← numbered `.jpg` or `.png` image sequence
-└── README.md
-Tech Stack
-HTML5
-
-CSS (for overlay styling & fade effects)
-
-JavaScript with GSAP + ScrollTrigger (for scroll-based animation sequencing)
-
-<canvas> element for frame-by-frame rendering
-
-Inspiration & Credit
-This implementation was inspired by Apple’s AirPods Pro landing page, which uses a long series of frame images displayed via canvas element and scroll-triggered JS for a scrub-like video effect 
-Gist
-+1
-.
-
-Special thanks to public GitHub projects such as rocristoi/airpodsanimation and peperini/canvas-airpods‑pro‑animation for reference implementations 
-Reddit
-+15
-GitHub
-+15
-GitHub
-+15
-.
-
-Contributing
-Contributions are welcome! Feel free to:
-
-Submit bugs or feature requests via GitHub Issues
-
-Improve performance (e.g. lazy‑loading frames)
-
-Add responsive/mobile support
-
-Experiment with audio, video, or alternative animations
+# 5. Open in browser
+# Visit http://localhost:3000
